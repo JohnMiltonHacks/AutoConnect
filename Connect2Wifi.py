@@ -1,5 +1,5 @@
 import time
-import os,urllib.request,time
+import os,urllib.request,time,schedule
 def connect(host='http://google.com'):
     try:
         urllib.request.urlopen(host) 
